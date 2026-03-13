@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas do Setor - Unificador de Links</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .link-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .link-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
+    
+    <!-- Header Section -->
+    <div class="max-w-md w-full text-center mb-12">
+        <div class="inline-flex items-center justify-center p-4 bg-blue-600 rounded-full mb-4 shadow-lg">
+            <i class="fas fa-network-wired text-white text-3xl"></i>
+        </div>
+        <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">Portal de Sistemas do Setor</h1>
+        <p class="mt-2 text-gray-600">Central de acesso rápido para ferramentas e documentações essenciais.</p>
+    </div>
+
+    <!-- Links Section -->
+    <div class="max-w-md w-full space-y-4">
+        
+        <!-- Exemplo de Link 1 -->
+        <a href="https://exemplo1.com" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-lg text-blue-600">
+                    <i class="fas fa-chart-line text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Gestão de Metas</h3>
+                    <p class="text-sm text-gray-500">Acompanhamento de KPIs e resultados trimestrais.</p>
+                </div>
+                <div class="ml-auto text-gray-400">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </a>
+
+        <!-- Exemplo de Link 2 -->
+        <a href="https://exemplo2.com" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 bg-green-100 p-3 rounded-lg text-green-600">
+                    <i class="fas fa-users text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Portal RH</h3>
+                    <p class="text-sm text-gray-500">Folha de pagamento, férias e benefícios.</p>
+                </div>
+                <div class="ml-auto text-gray-400">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </a>
+
+        <!-- Exemplo de Link 3 -->
+        <a href="https://exemplo3.com" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 bg-purple-100 p-3 rounded-lg text-purple-600">
+                    <i class="fas fa-folder-open text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Documentação</h3>
+                    <p class="text-sm text-gray-500">Base de conhecimento e manuais de processos.</p>
+                </div>
+                <div class="ml-auto text-gray-400">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </a>
+
+        <!-- Exemplo de Link 4 -->
+        <a href="https://exemplo4.com" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 bg-yellow-100 p-3 rounded-lg text-yellow-600">
+                    <i class="fas fa-headset text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Suporte Técnico</h3>
+                    <p class="text-sm text-gray-500">Abertura de chamados e assistência rápida.</p>
+                </div>
+                <div class="ml-auto text-gray-400">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="mt-auto pt-12 text-center text-gray-400 text-sm">
+        <p>&copy; 2026 Setor de Tecnologia - Todos os direitos reservados.</p>
+        <div class="mt-4 flex justify-center space-x-6">
+            <a href="#" class="hover:text-gray-600"><i class="fab fa-github"></i></a>
+            <a href="#" class="hover:text-gray-600"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>

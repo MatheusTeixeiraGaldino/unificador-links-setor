@@ -26,7 +26,7 @@
 <body class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
     
     <!-- Header Section -->
-    <div class="max-w-md w-full text-center mb-12">
+    <div class="max-w-4xl w-full text-center mb-12">
         <div class="inline-flex items-center justify-center p-4 bg-blue-600 rounded-full mb-4 shadow-lg">
             <i class="fa-regular fa-handshake text-white text-3xl"></i>
         </div>
@@ -34,103 +34,61 @@
         <p class="mt-2 text-gray-600">Central de acesso rápido para ferramentas e documentações essenciais.</p>
     </div>
 
-    <!-- Links Section -->
-    <div class="max-w-md w-full space-y-4">
+    <!-- Links Section - Grid Layout -->
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <!-- Link 1: Movimentações Trabalhistas -->
-        <a href="https://movimentacoes-trabalhista.vercel.app/" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-lg text-blue-600">
-                    <i class="fas fa-briefcase text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Movimentações Trabalhistas</h3>
-                    <p class="text-sm text-gray-500">Gestão e acompanhamento de processos laborais.</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="https://movimentacoes-trabalhista.vercel.app/" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-blue-100 p-4 rounded-full text-blue-600 mb-4">
+                <i class="fas fa-briefcase text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Movimentações Trabalhistas</h3>
+            <p class="text-sm text-gray-500">Gestão e acompanhamento de processos laborais.</p>
         </a>
 
         <!-- Link 2: Sistema Bem Viver -->
-        <a href="https://bem-viver.lovable.app/login" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-green-100 p-3 rounded-lg text-green-600">
-                    <i class="fas fa-heart text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Sistema Bem Viver</h3>
-                    <p class="text-sm text-gray-500">Portal de login e gestão de qualidade de vida.</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="https://bem-viver.lovable.app/login" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-green-100 p-4 rounded-full text-green-600 mb-4">
+                <i class="fas fa-heart text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Sistema Bem Viver</h3>
+            <p class="text-sm text-gray-500">Portal de login e gestão de qualidade de vida.</p>
         </a>
 
         <!-- Link 3: Cadastro RPA -->
-        <a href="https://otaviolage-rpa.base44.app" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-purple-100 p-3 rounded-lg text-purple-600">
-                    <i class="fas fa-file-signature text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Cadastro RPA</h3>
-                    <p class="text-sm text-gray-500">Sistema para registro de autônomos (RPA).</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="https://otaviolage-rpa.base44.app" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-purple-100 p-4 rounded-full text-purple-600 mb-4">
+                <i class="fas fa-file-signature text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Cadastro RPA</h3>
+            <p class="text-sm text-gray-500">Sistema para registro de autônomos (RPA).</p>
         </a>
 
         <!-- Link 4: Pesquisa de Satisfação -->
-        <a href="https://pesquisasatisfacao.base44.app/" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-yellow-100 p-3 rounded-lg text-yellow-600">
-                    <i class="fas fa-smile text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Pesquisa de Satisfação</h3>
-                    <p class="text-sm text-gray-500">Avalie nossos serviços e dê sua opinião.</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="https://pesquisasatisfacao.base44.app/" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-yellow-100 p-4 rounded-full text-yellow-600 mb-4">
+                <i class="fas fa-smile text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Pesquisa de Satisfação</h3>
+            <p class="text-sm text-gray-500">Avalie nossos serviços e dê sua opinião.</p>
         </a>
 
         <!-- Link 5: Farmácia -->
-        <a href="https://pharma-hr-sync.lovable.app" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-red-100 p-3 rounded-lg text-red-600">
-                    <i class="fas fa-pills text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Farmácia</h3>
-                    <p class="text-sm text-gray-500">Sistema de sincronização e gestão de farmácia.</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="https://pharma-hr-sync.lovable.app" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-red-100 p-4 rounded-full text-red-600 mb-4">
+                <i class="fas fa-pills text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Farmácia</h3>
+            <p class="text-sm text-gray-500">Sincronização e gestão de farmácia.</p>
         </a>
 
         <!-- Link 6: Meu RH -->
-        <a href="http://10.133.133.2/FrameHTML/web/app/RH/PortalMeuRH/#/login" target="_blank" class="link-card block bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:bg-blue-50">
-            <div class="flex items-center">
-                <div class="flex-shrink-0 bg-orange-100 p-3 rounded-lg text-orange-600">
-                    <i class="fas fa-id-card text-xl"></i>
-                </div>
-                <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900">Meu RH</h3>
-                    <p class="text-sm text-gray-500">Acesse o portal de recursos humanos e holerites.</p>
-                </div>
-                <div class="ml-auto text-gray-400">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+        <a href="http://10.133.133.2/FrameHTML/web/app/RH/PortalMeuRH/#/login" target="_blank" class="link-card flex flex-col items-center text-center bg-white rounded-xl border border-gray-200 p-6 hover:border-blue-500 hover:bg-blue-50">
+            <div class="bg-orange-100 p-4 rounded-full text-orange-600 mb-4">
+                <i class="fas fa-id-card text-2xl"></i>
             </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Meu RH</h3>
+            <p class="text-sm text-gray-500">Acesse portal de RH e holerites.</p>
         </a>
 
     </div>
